@@ -22,9 +22,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:id="@+id/postImage"
-                android:cropToPadding="false"
-                android:clickable="false"
-                android:scaleType="centerCrop" />
+                android:scaleType="centerCrop"
+                android:cropToPadding="true"
+                android:layout_alignEnd="@+id/address"
+                android:background="#ffe9e9e9" />
 
             <ImageView
                 android:layout_width="32dp"
@@ -89,7 +90,8 @@
                 android:id="@+id/toggled_content"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/postThumb">
+                android:layout_below="@id/postThumb"
+                android:visibility="gone">
 
                 <TextView
                     android:layout_width="match_parent"

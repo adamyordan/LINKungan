@@ -1,0 +1,122 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ff008a00"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:src="@drawable/ic_launcher"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/imageView3"
+                    android:background="@android:color/white" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="username"
+                    android:id="@+id/textView4"
+                    android:textColor="@android:color/white"
+                    android:textSize="24sp"
+                    android:layout_below="@+id/imageView3"
+                    android:layout_centerHorizontal="true" />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_setting"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|top">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Edit Profile"
+                    android:textSize="10sp" />
+
+                <Button
+                    android:id="@+id/btnChangePassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Change Pass"
+                    android:textSize="10sp" />
+
+                <Button
+                    android:id="@+id/btnLogout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Logout"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:divider="@android:color/darker_gray"
+            android:focusableInTouchMode="false">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your Participated Event"
+                android:layout_margin="8dp"/>
+
+            <include
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                layout="@layout/post_item" />
+
+            <include
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                layout="@layout/post_item" />
+
+            <include
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                layout="@layout/post_item" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -24,6 +24,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 
 import android.text.Html;
+import android.util.AttributeSet;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -42,6 +43,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 import java.util.Locale;
+import java.util.jar.Attributes;
 
 /**
  * Main Activity aplikasi
@@ -58,8 +60,8 @@ public class Home extends ActionBarActivity implements View.OnClickListener {
     //adapter yang mengatur pager
     private ViewPagerAdapter adapter;
     private SlidingTabLayout tabs;
-    private CharSequence Titles[]={"Reports","Map"};
-    private int Numboftabs =2;
+    private CharSequence Titles[]={"Reports","Nearby","You"};
+    private int Numboftabs =3;
     private boolean firstBackPressed;
 
     //================Upload variable====================//
@@ -69,6 +71,11 @@ public class Home extends ActionBarActivity implements View.OnClickListener {
 
     private Uri fileUri; // file url to store image
     private ImageButton btnCapturePicture;
+
+    // ProfileFragment
+    private Button btnLogout;
+    private Button btnChangePassword;
+    private ServerRequest serverRequest;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -110,6 +117,16 @@ public class Home extends ActionBarActivity implements View.OnClickListener {
         //button di kiri bawah layout
         btnCapturePicture = (ImageButton)findViewById(R.id.btnCapture);
         btnCapturePicture.setOnClickListener(this);
+
+
+        //ProfileFragment
+        serverRequest = new ServerRequest(this);
+    }
+
+    public View onCreateView(String name, Context context, AttributeSet attr){
+        View v = super.onCreateView(name, context, attr);
+    return v;
+
     }
 
     /**

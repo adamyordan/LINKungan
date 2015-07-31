@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="actionbar_text">#FFFFFF</color>
+    <color name="actionbar_background">#00A800</color>
+    <color name="ColorPrimary">#FFFFFF</color>
+    <color name="ColorPrimaryDark">#FFFFF0</color>
+    <color name="tabsScrollColor">#008A00</color>
+    <color name="tabSelectedColor">#008A01</color>
+    <color name="feed_item_bg">#ffffff</color>
+    <color name="feed_item_border">#c2c3c8</color>
+</resources>

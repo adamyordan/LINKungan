@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Home">
+
+    <item
+        android:id="@+id/action_notification"
+        android:orderInCategory="20"
+        android:icon="@drawable/ic_notifications_white_24dp"
+        android:title="Notification"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="50"
+        android:icon="@drawable/ic_search_white_24dp"
+        android:title="Search"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_addFriend"
+        android:orderInCategory="75"
+        android:icon="@drawable/ic_person_add_white_24dp"
+        android:title="Add Friend"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_settings_white_24dp"
+        app:showAsAction="always" />
+
+
+
+
+
+</menu>

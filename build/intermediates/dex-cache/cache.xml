@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/adam/LINKungan/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="/home/adam/LINKungan/app/build/intermediates/pre-dexed/debug/classes-eab951393aac44fb7bbb55e122e3926ff79e9e01.jar" />
+    </item>
+    <item
+        jar="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5b37cf49773f7f17aca9830efd3053b0cac56728">
+        <dex dex="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/pre-dexed/debug/classes-587bae6a5767b89f7da1c3e60046f8f7721acc0d.jar" />
+    </item>
+    <item
+        jar="/home/adam/LINKungan/app/build/intermediates/exploded-aar/com.google.maps.android/android-maps-utils/0.3.4/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="cf251baf39f5c5138224b67b4106eb6331abbd13">
+        <dex dex="/home/adam/LINKungan/app/build/intermediates/pre-dexed/debug/classes-ad615aef40a9c11317bdd0d289ba8d4ee3c46727.jar" />
+    </item>
+    <item
+        jar="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/pre-dexed/debug/classes-9400b511097b0ea4999379ec3f5de013d361a09f.jar" />
+    </item>
+    <item
+        jar="/home/adam/LINKungan/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5b37cf49773f7f17aca9830efd3053b0cac56728">
+        <dex dex="/home/adam/LINKungan/app/build/intermediates/pre-dexed/debug/classes-60f91cd0ed74495d831b73a90df577df34222dbc.jar" />
+    </item>
+    <item
+        jar="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/libs/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/pre-dexed/debug/picasso-2.5.2-71cf02fb3872d88a5368fb32967ad948d1e8455a.jar" />
+    </item>
+    <item
+        jar="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/libs/httpcore-4.2.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3b7f38df6de5dd8b500e602ae8c2dd5ee446f883">
+        <dex dex="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/pre-dexed/debug/httpcore-4.2.4-b2656c2360b0a25f64cf3c0bdeadb6e974fc4571.jar" />
+    </item>
+    <item
+        jar="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/pre-dexed/debug/classes-5fafbc4e80583a9c3518ec1ea87047ef839ebdb1.jar" />
+    </item>
+    <item
+        jar="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/pre-dexed/debug/classes-e3cd680bb42bc8cacc20935ba1f37832e93db525.jar" />
+    </item>
+    <item
+        jar="/home/adam/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.2.0/6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd/bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/pre-dexed/debug/bolts-android-1.2.0-0178af2edeaf2bf79ed7f935461669c48cd8187d.jar" />
+    </item>
+    <item
+        jar="/home/adam/LINKungan/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="/home/adam/LINKungan/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-30fbe1a425c767a1dd551be28238399507701688.jar" />
+    </item>
+    <item
+        jar="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/pre-dexed/debug/classes-e8c5aa8769a5b0d36b5f489527f6355e568d1aed.jar" />
+    </item>
+    <item
+        jar="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/pre-dexed/debug/classes-8a43cdafbe6d897ca4d2cb254b523512106037e1.jar" />
+    </item>
+    <item
+        jar="/home/adam/LINKungan/app/libs/httpcore-4.2.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3b7f38df6de5dd8b500e602ae8c2dd5ee446f883">
+        <dex dex="/home/adam/LINKungan/app/build/intermediates/pre-dexed/debug/httpcore-4.2.4-72efdeb7e54d0b2288cb6f214302dea363612a7b.jar" />
+    </item>
+    <item
+        jar="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/libs/httpclient-4.2.5.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="666e26e76f2e87d84e4f16acb546481ae1b8e9a6">
+        <dex dex="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/pre-dexed/debug/httpclient-4.2.5-5b6dbdc4322a09155bc0591e523b706b93e27856.jar" />
+    </item>
+    <item
+        jar="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/pre-dexed/debug/classes-9ac7e8bf207bf47ed2f7fb276479e3389e6f13c6.jar" />
+    </item>
+    <item
+        jar="/home/adam/LINKungan/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="/home/adam/LINKungan/app/build/intermediates/pre-dexed/debug/classes-16c41a85aec8482b919f7515bf3d050c0744b023.jar" />
+    </item>
+    <item
+        jar="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="97f7e239e86ef994de894818fdd8a71d2e89d6aa">
+        <dex dex="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/pre-dexed/debug/classes-ec03b31b76e064416f9a1e447134dbe500849d26.jar" />
+    </item>
+    <item
+        jar="/home/adam/LINKungan/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="/home/adam/LINKungan/app/build/intermediates/pre-dexed/debug/classes-a79108f58cedd660f492ca14f9bb0b60a404c964.jar" />
+    </item>
+    <item
+        jar="/home/adam/LINKungan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/home/adam/LINKungan/app/build/intermediates/pre-dexed/debug/classes-91c9d088f4cc48e29093d3ac76f7c9e9ff7d54bc.jar" />
+    </item>
+    <item
+        jar="/home/adam/LINKungan/app/build/intermediates/exploded-aar/com.github.orangegangsters/swipy/1.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3139f7aa9cc345a67faeca13d7fa15115b9a94dd">
+        <dex dex="/home/adam/LINKungan/app/build/intermediates/pre-dexed/debug/classes-67a0545912b1b8a5616d6e5b149cef2f7dcdcd75.jar" />
+    </item>
+    <item
+        jar="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/pre-dexed/debug/classes-0b29c6ab4f5f6400f24d180d788d374cdf54ef92.jar" />
+    </item>
+    <item
+        jar="/home/adam/LINKungan/app/libs/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/home/adam/LINKungan/app/build/intermediates/pre-dexed/debug/picasso-2.5.2-46cc95d02cb1e3231ee985befa698a76222444b4.jar" />
+    </item>
+    <item
+        jar="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/pre-dexed/debug/classes-08e8378a0fb8c647056552525fb350c387b5ec46.jar" />
+    </item>
+    <item
+        jar="/home/adam/LINKungan/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="/home/adam/LINKungan/app/build/intermediates/pre-dexed/debug/classes-ba8f72a24182995740e5580f6860c26b6f0534f7.jar" />
+    </item>
+    <item
+        jar="/home/adam/LINKungan/app/libs/httpclient-4.2.5.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="666e26e76f2e87d84e4f16acb546481ae1b8e9a6">
+        <dex dex="/home/adam/LINKungan/app/build/intermediates/pre-dexed/debug/httpclient-4.2.5-466290bc137298db7c5ef60a7a85578ee20b81e6.jar" />
+    </item>
+    <item
+        jar="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/pre-dexed/debug/classes-89a77bd77be2c555db895e8f49d29c9be9bef44f.jar" />
+    </item>
+    <item
+        jar="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/pre-dexed/debug/classes-f7675906d42950bc840d22c9d9d09a0d79abbebb.jar" />
+    </item>
+    <item
+        jar="/home/adam/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-f081b09bb1f185f2ca931e1d9ea7db3436cb6be1.jar" />
+    </item>
+    <item
+        jar="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/pre-dexed/debug/classes-b4a700c210ce064373fb45a4104cab804742067b.jar" />
+    </item>
+    <item
+        jar="/home/adam/LINKungan/app/libs/httpmime-4.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d34b163e52a9727101aced60775d51c5085390a1">
+        <dex dex="/home/adam/LINKungan/app/build/intermediates/pre-dexed/debug/httpmime-4.1.1-7b0a42aa04333af37085804b3cdb658d90e62553.jar" />
+    </item>
+    <item
+        jar="/home/adam/LINKungan/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="/home/adam/LINKungan/app/build/intermediates/pre-dexed/debug/classes-674c5dc65220ab5335d9ed4c9ee1011080f4540a.jar" />
+    </item>
+    <item
+        jar="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/exploded-aar/com.github.orangegangsters/swipy/1.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3139f7aa9cc345a67faeca13d7fa15115b9a94dd">
+        <dex dex="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/pre-dexed/debug/classes-48a4c70ca47be3b81cab045f1ff8aaecd426e86b.jar" />
+    </item>
+    <item
+        jar="/home/adam/LINKungan/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="/home/adam/LINKungan/app/build/intermediates/pre-dexed/debug/classes-65f0db1d13edc167133927e0708ca04b62784baf.jar" />
+    </item>
+    <item
+        jar="/home/adam/LINKungan/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="/home/adam/LINKungan/app/build/intermediates/pre-dexed/debug/classes-f730e4daefed2d60306d51b2882b7d508f362073.jar" />
+    </item>
+    <item
+        jar="/home/adam/LINKungan/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="/home/adam/LINKungan/app/build/intermediates/pre-dexed/debug/classes-ce2828a63766403bd38e70cd6aa13c9793f00174.jar" />
+    </item>
+    <item
+        jar="/home/adam/LINKungan/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="/home/adam/LINKungan/app/build/intermediates/pre-dexed/debug/classes-8f1f33ba24e069cdf5b55ff02a9dc18155247736.jar" />
+    </item>
+    <item
+        jar="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/pre-dexed/debug/classes-68bf29a5ce886edc6fe3f257b629194dccbb7134.jar" />
+    </item>
+    <item
+        jar="/home/adam/LINKungan/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="/home/adam/LINKungan/app/build/intermediates/pre-dexed/debug/classes-bbf765089e639d9a20b42a50cf8cdb1b5f31298b.jar" />
+    </item>
+    <item
+        jar="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/libs/httpmime-4.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d34b163e52a9727101aced60775d51c5085390a1">
+        <dex dex="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/pre-dexed/debug/httpmime-4.1.1-6e259347a25b10432a2b7640dbb2706927d033be.jar" />
+    </item>
+    <item
+        jar="/home/adam/LINKungan/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="/home/adam/LINKungan/app/build/intermediates/pre-dexed/debug/classes-3f6d37e731ae5a1fd23261cdfafe337bc4ed2c6c.jar" />
+    </item>
+    <item
+        jar="/home/adam/LINKungan/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="/home/adam/LINKungan/app/build/intermediates/pre-dexed/debug/classes-d98576dff225cf041ec32686dc3d9d6f155ed3f9.jar" />
+    </item>
+    <item
+        jar="/home/adam/LINKungan/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="/home/adam/LINKungan/app/build/intermediates/pre-dexed/debug/classes-21af3353c43b90ad9f7867cc535ad7bbebf7b3bf.jar" />
+    </item>
+    <item
+        jar="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/pre-dexed/debug/classes-003997507816f5e77fc2fc228e74d9433ee9f97a.jar" />
+    </item>
+    <item
+        jar="/home/adam/LINKungan/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="/home/adam/LINKungan/app/build/intermediates/pre-dexed/debug/classes-4f19e0ae35520c4dbd6508690cb2be9eae9c5121.jar" />
+    </item>
+    <item
+        jar="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/pre-dexed/debug/classes-591748da7e964e06863d397e56e981b631d6d9dd.jar" />
+    </item>
+    <item
+        jar="/home/adam/LINKungan/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="/home/adam/LINKungan/app/build/intermediates/pre-dexed/debug/classes-7fa04a21384d742b2174f91041439c9be7578f0b.jar" />
+    </item>
+    <item
+        jar="/home/adam/LINKungan/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="/home/adam/LINKungan/app/build/intermediates/pre-dexed/debug/classes-15fcf6464eb42a0e63aabc75d9f80b6c7362219f.jar" />
+    </item>
+    <item
+        jar="/home/adam/LINKungan/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="/home/adam/LINKungan/app/build/intermediates/pre-dexed/debug/classes-6410fcdefffd1022fb41f92446ba56e4593d4fce.jar" />
+    </item>
+    <item
+        jar="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/pre-dexed/debug/classes-f42d56cf7c342af55e4ed84411c3e8f179f54ac1.jar" />
+    </item>
+    <item
+        jar="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/pre-dexed/debug/classes-468112f2aae7a574e975da89c61f59972de6c393.jar" />
+    </item>
+    <item
+        jar="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-7ef1cdabb50a9aeaa9b35b4b7f0f7a4ebdb3aa89.jar" />
+    </item>
+    <item
+        jar="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-79def0f4fdd78ccf112d32f33c75d6e817a71830.jar" />
+    </item>
+    <item
+        jar="/home/adam/LINKungan/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="/home/adam/LINKungan/app/build/intermediates/pre-dexed/debug/classes-f0155145fe7e76bb7ef27eed915a0a6b83ee8ac5.jar" />
+    </item>
+    <item
+        jar="/home/adam/LINKungan/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a78bfd2ec508b123ee7c03f4006ba7996ef9a8dc">
+        <dex dex="/home/adam/LINKungan/app/build/intermediates/pre-dexed/debug/classes-0a512d467f958931e3682bb3d23a29fe4992bbef.jar" />
+    </item>
+    <item
+        jar="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/pre-dexed/debug/classes-79e075a34398096e8cef0ab06088c65fc25d95f1.jar" />
+    </item>
+    <item
+        jar="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/pre-dexed/debug/classes-8a15d224ea071e603f08ff44b8bc3f10337a4055.jar" />
+    </item>
+    <item
+        jar="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/pre-dexed/debug/classes-8fd4629ccce81aa19d730fda2e65e28b657f24ed.jar" />
+    </item>
+    <item
+        jar="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a78bfd2ec508b123ee7c03f4006ba7996ef9a8dc">
+        <dex dex="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/pre-dexed/debug/classes-545c0335768f5ef8407931ef3d703be2e75e9045.jar" />
+    </item>
+    <item
+        jar="/home/adam/LINKungan/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="/home/adam/LINKungan/app/build/intermediates/pre-dexed/debug/classes-3eb14b707cb78cb608d71d12eb2059e3c6e1e8cc.jar" />
+    </item>
+    <item
+        jar="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/pre-dexed/debug/classes-fa80071b432fce09474b70b8c99c640daa135a62.jar" />
+    </item>
+    <item
+        jar="/home/adam/LINKungan/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/home/adam/LINKungan/app/build/intermediates/pre-dexed/debug/classes-8a0476f7082997e3c0c0bacf1ccebb9c9b98886b.jar" />
+    </item>
+    <item
+        jar="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/pre-dexed/debug/classes-189ec4e66e94dd9ba82c4b1b3990d96643a8f32d.jar" />
+    </item>
+    <item
+        jar="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/pre-dexed/debug/classes-086fa78525fda1298ab0006faf0455d8c6d1c38a.jar" />
+    </item>
+    <item
+        jar="/home/adam/LINKungan/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="/home/adam/LINKungan/app/build/intermediates/pre-dexed/debug/classes-41aa517489f35cda949e6873f5671aa518af729b.jar" />
+    </item>
+    <item
+        jar="/home/adam/LINKungan/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/home/adam/LINKungan/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-5e59fa0b003c6d5cf60fa5768bbfc1ecaa5b8de8.jar" />
+    </item>
+    <item
+        jar="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/exploded-aar/com.google.maps.android/android-maps-utils/0.3.4/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="cf251baf39f5c5138224b67b4106eb6331abbd13">
+        <dex dex="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/pre-dexed/debug/classes-a47d18ebbe46f56f7db52a7e9d3bf49e910e9c07.jar" />
+    </item>
+    <item
+        jar="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="/home/adam/Downloads/project_linkungan[edited 2]/LINKungan/app/build/intermediates/pre-dexed/debug/classes-f3ea89a6f3ac016b5d4da2615b5e3fa658867e5f.jar" />
+    </item>
+    <item
+        jar="/home/adam/LINKungan/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="97f7e239e86ef994de894818fdd8a71d2e89d6aa">
+        <dex dex="/home/adam/LINKungan/app/build/intermediates/pre-dexed/debug/classes-58bee1982a5695042535be91843823724f0171f7.jar" />
+    </item>
+    <item
+        jar="/home/adam/LINKungan/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="/home/adam/LINKungan/app/build/intermediates/pre-dexed/debug/classes-4477e9c85878d887da275f4a3cb292ebddcf8201.jar" />
+    </item>
+
+</items>

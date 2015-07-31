@@ -63,6 +63,9 @@ public class Login extends ActionBarActivity implements View.OnClickListener {
     private ProgressDialog progressDialog;
     public final static int NORMAL_LOGIN_METHOD = 0;
     public final static int FACEBOOK_LOGIN_METHOD = 1;
+
+    private Button btnSignUp;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         FacebookSdk.sdkInitialize(getApplicationContext());
@@ -137,6 +140,9 @@ public class Login extends ActionBarActivity implements View.OnClickListener {
         btnLogin = (Button) findViewById(R.id.btnLogin);
         btnLogin.setOnClickListener(this);
 
+        btnSignUp = (Button) findViewById(R.id.btnSignUp);
+        btnSignUp.setOnClickListener(this);
+
         //inisialisasi sharedPreferences
         userLocalStore = new UserLocalStore(this);
 
@@ -166,21 +172,33 @@ public class Login extends ActionBarActivity implements View.OnClickListener {
     }
     /**
      * Apabila button login diclick
-     * @param v
+     * @param view
      */
     @Override
-    public void onClick(View v) {
-        String email = etEmail.getText().toString();
-        String password = etPassword.getText().toString();
-        if(email.equals("") || password.equals("")){
-            showErrorMessage("Please fill email and password");
-            etPassword.setText("");
-            return;
+    public void onClick(View view) {
+        int id = view.getId();
+        switch(id) {
+            case R.id.btnLogin :
+                String email = etEmail.getText().toString();
+                String password = etPassword.getText().toString();
+                if(email.equals("") || password.equals("")){
+                    showErrorMessage("Please fill email and password");
+                    etPassword.setText("");
+                    return;
+                }
+                User sentUser = new User("","","",email, password, "");
+                Log.d("login", email + " " + password);
+                //authentication ke server
+                loginUser(sentUser);
+
+                break;
+            case R.id.btnSignUp:
+                Intent intent = new Intent(this, SignUp.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+                startActivityForResult(intent, 0);
+                break;
         }
-        User sentUser = new User("","","",email, password, "");
-        Log.d("login", email + " " + password);
-        //authentication ke server
-        loginUser(sentUser);
+
     }
     public void storeFacebookUser(String firstName, String lastName, final String facebookId){
         serverRequest.storeFacebookUserDataAsyncTask(firstName, lastName, facebookId, new GetRegisterStatusCallback() {

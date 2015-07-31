@@ -86,7 +86,7 @@ public class Home extends ActionBarActivity implements View.OnClickListener {
         //Setting warna dan title di action bar
         ActionBar ab = getSupportActionBar();
         ab.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#008A00")));
-        ab.setTitle(Html.fromHtml("<font color='#ffffff'>Home</font>"));
+        ab.setTitle(Html.fromHtml("<font color='#ffffff'>LINKungan</font>"));
 
 
         // Creating The ViewPagerAdapter and Passing Fragment Manager, Titles fot the Tabs and Number Of Tabs.

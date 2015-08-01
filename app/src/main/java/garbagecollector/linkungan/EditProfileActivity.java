@@ -6,9 +6,11 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.text.Html;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -18,8 +20,10 @@ public class EditProfileActivity extends ActionBarActivity implements View.OnCli
     EditText et_firstName;
     EditText et_lastName;
     EditText et_email;
+    ServerRequest serverRequest;
 
     UserLocalStore userLocalStore;
+    User loggedInUser;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,10 +33,11 @@ public class EditProfileActivity extends ActionBarActivity implements View.OnCli
         //Setting warna dan title di action bar
         ActionBar ab = getSupportActionBar();
         ab.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#008A00")));
-        ab.setTitle(Html.fromHtml("<font color='#ffffff'>Edit Profile</font>"));
+        ab.setTitle(Html.fromHtml("<font color='#fffffe'>Edit Profile</font>"));
 
+        serverRequest = new ServerRequest(this);
         userLocalStore = new UserLocalStore(this);
-        User loggedInUser = userLocalStore.getLoggedInUser();
+        loggedInUser = userLocalStore.getLoggedInUser();
 
         et_firstName = (EditText) findViewById(R.id.editText_FirstName);
         et_lastName = (EditText) findViewById(R.id.editText_lastName);
@@ -46,6 +51,8 @@ public class EditProfileActivity extends ActionBarActivity implements View.OnCli
             et_email.setVisibility(View.GONE);
             ((TextView) findViewById(R.id.textView_email)).setVisibility(View.GONE);
         }
+
+        ((Button) findViewById(R.id.button_update)).setOnClickListener(this);
     }
 
 
@@ -54,7 +61,12 @@ public class EditProfileActivity extends ActionBarActivity implements View.OnCli
         int id = view.getId();
         switch (id){
             case R.id.button_update:
-                //todo: update the user parameter in server
+                serverRequest.updateProfileInBackground(loggedInUser.id, et_firstName.getText().toString(), et_lastName.getText().toString(), et_email.getText().toString(), new GetRegisterStatusCallback() {
+                    @Override
+                    public void done(String[] result) {
+                        Log.d("adam", loggedInUser.id + et_firstName.getText().toString() + et_email.getText().toString());
+                    }
+                });
                 break;
         }
     }

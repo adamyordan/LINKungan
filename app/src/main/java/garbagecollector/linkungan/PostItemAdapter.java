@@ -49,31 +49,44 @@ public class PostItemAdapter extends ArrayAdapter<PostItem> {
 
         LayoutInflater inflater = myContext.getLayoutInflater();
         View rowView = inflater.inflate(R.layout.post_item, null);
-        ImageView thumbImageView = (ImageView) rowView
-                .findViewById(R.id.postThumb);
 
         if(listPostItem != null) {
             //TODO: photo profile, sementara diambil dari gambar di drawable
             PostItem p = listPostItem.get(position);
+
+            switch (p.status){
+                case PostItem.REPORTED:
+                    rowView = inflater.inflate(R.layout.post_item, null);
+                    break;
+                case PostItem.MANAGED:
+                    rowView = inflater.inflate(R.layout.post_item_2, null);
+                    break;
+                case PostItem.PROCESSING:
+                    break;
+                case PostItem.FINISHED:
+                    break;
+            }
+
+            ImageView thumbImageView = (ImageView) rowView.findViewById(R.id.postThumb);
+
             if (p.postThumbUrl == null) {
                 thumbImageView.setImageResource(R.drawable.profile);
             }
+
             //set Semua template post menjadi data yang sesuai
-            TextView postName = (TextView) rowView
-                    .findViewById(R.id.postTitleLabel);
+            TextView postName = (TextView) rowView.findViewById(R.id.postTitleLabel);
             postName.setText(p.postName);
 
-            TextView postDateView = (TextView) rowView
-                    .findViewById(R.id.postDateLabel);
+            TextView postDateView = (TextView) rowView.findViewById(R.id.postDateLabel);
             postDateView.setText(p.postDate);
 
-            final TextView postDescription = (TextView) rowView
-                    .findViewById(R.id.postDescription);
+            final TextView postDescription = (TextView) rowView.findViewById(R.id.postDescription);
             postDescription.setText(p.postDescription);
 
             ImageView postImage = (ImageView) rowView.findViewById(R.id.postImage);
             //Picasso library dari http://square.github.io/picasso/
             Picasso.with(context).load("http://garbageserver.esy.es/"+p.postImageUrlSmall).resize(400,200).centerCrop().into(postImage);
+
             TextView tvAddress = (TextView) rowView.findViewById(R.id.address);
             tvAddress.setText(p.address);
 

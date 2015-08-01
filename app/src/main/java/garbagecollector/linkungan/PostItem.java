@@ -29,7 +29,15 @@ public class PostItem {
     public double longitude;
     //TODO:jumlah like, status post(udah dibikin event/blom)
 
-    public PostItem(String id, String postThumbUrl,  String postName, String postDate, String postImageUrl, String postImageUrlSmall, String postDescription, int totalLike, boolean isLike, String address, double latitude, double longitude){
+    public static final int REPORTED = 0;
+    public static final int MANAGED = 1;
+    public static final int PROCESSING = 2;
+    public static final int FINISHED = 3;
+
+    public int status;
+
+
+    public PostItem(String id, String postThumbUrl,  String postName, String postDate, String postImageUrl, String postImageUrlSmall, String postDescription, int totalLike, boolean isLike, String address, double latitude, double longitude, int status){
         this.id = id;
         this.postThumbUrl = postThumbUrl;
         this.postName = postName;
@@ -42,5 +50,6 @@ public class PostItem {
         this.address = address;
         this.latitude = latitude;
         this.longitude = longitude;
+        this.status = status;
     }
 }

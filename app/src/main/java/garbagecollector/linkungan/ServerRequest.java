@@ -93,6 +93,11 @@ public class ServerRequest {
         new GetMarkerAsyncTask(callback).execute();
     }
 
+    public void updateProfileInBackground(String id, String firstName, String lastName, String email, GetRegisterStatusCallback callback ){
+        new UpdateProfileAsyncTask(id, firstName, lastName, email, callback).execute();
+    }
+
+
     public class FetchUserDataAsyncTask extends AsyncTask<Void, Void, User>{
         User user;
         GetUserCallback userCallback;
@@ -124,6 +129,7 @@ public class ServerRequest {
             HttpConnectionParams.setSoTimeout(httpRequestParams, CONNECTION_TIMEOUT);
             HttpClient client = new DefaultHttpClient(httpRequestParams);
             HttpPost post = new HttpPost(SERVER_ADDRESS+"FetchUserData.php");
+            Log.d("login", SERVER_ADDRESS+"FetchUserData.php");
             Log.d("login", "connected");
             User returnedUser= null;
             try{
@@ -250,7 +256,7 @@ public class ServerRequest {
         protected void onPostExecute(User returnedUser) {
             super.onPostExecute(returnedUser);
             //Setelah background procces selesai, panggil callback
-            Log.d("login","post execute");
+            Log.d("login", "post execute");
             callback.done(returnedUser);
         }
     }
@@ -469,7 +475,8 @@ public class ServerRequest {
                     String address = jsonobject.getString("address");
                     double latitude = jsonobject.getDouble("latitude");
                     double longitude = jsonobject.getDouble("longitude");
-                    PostItem postItem = new PostItem(id, null, name, time, link, linkSmall, description, totalLike, isLike, address, latitude, longitude);
+                    int status = jsonobject.getInt("status");
+                    PostItem postItem = new PostItem(id, null, name, time, link, linkSmall, description, totalLike, isLike, address, latitude, longitude, status);
                     listPostItem.add(postItem);
                 }
 
@@ -543,7 +550,8 @@ public class ServerRequest {
                     String address = jsonobject.getString("address");
                     double latitude = jsonobject.getDouble("latitude");
                     double longitude = jsonobject.getDouble("longitude");
-                    PostItem postItem = new PostItem(id, null, name, time, link, linkSmall, description, totalLike, isLike, address, latitude, longitude);
+                    int status = jsonobject.getInt("status");
+                    PostItem postItem = new PostItem(id, null, name, time, link, linkSmall, description, totalLike, isLike, address, latitude, longitude, status);
                     listPostItem.add(postItem);
                 }
 
@@ -594,7 +602,7 @@ public class ServerRequest {
 
             HttpClient client = new DefaultHttpClient(httpRequestParams);
             HttpPost post = new HttpPost(SERVER_ADDRESS+"changePassword.php");
-            Log.d("change", "connected");
+            Log.d("change", "connectedd");
 
             try{
                 post.setEntity(new UrlEncodedFormEntity(inputData));
@@ -722,4 +730,64 @@ public class ServerRequest {
             callback.done(result);
         }
     }
+
+    public class UpdateProfileAsyncTask extends AsyncTask<Void, Void, String[]>{
+        String[] result;
+        String id;
+        String firstName;
+        String lastName;
+        String email;
+        GetRegisterStatusCallback statusCallback;
+        public UpdateProfileAsyncTask(String id, String firstName, String lastName, String email, GetRegisterStatusCallback statusCallback){
+            Log.d("change","async task");
+            result = new String[2];
+            result[0] = "";
+            result[1] = "";
+            this.id = id;
+            this.firstName = firstName;
+            this.lastName = lastName;
+            this.email = email;
+            this.statusCallback = statusCallback;
+        }
+        @Override
+        protected String[] doInBackground(Void... params) {
+            ArrayList<NameValuePair> inputData = new ArrayList<>();
+            inputData.add(new BasicNameValuePair("id", id));
+            inputData.add(new BasicNameValuePair("firstName", firstName));
+            inputData.add(new BasicNameValuePair("lastName", lastName));
+            inputData.add(new BasicNameValuePair("email", email == null ? "" : email));
+            Log.d("change", "do in background");
+            HttpParams httpRequestParams = new BasicHttpParams();
+            HttpConnectionParams.setConnectionTimeout(httpRequestParams, CONNECTION_TIMEOUT);
+            HttpConnectionParams.setSoTimeout(httpRequestParams, CONNECTION_TIMEOUT);
+
+            HttpClient client = new DefaultHttpClient(httpRequestParams);
+            HttpPost post = new HttpPost(SERVER_ADDRESS+"updateProfile.php");
+            Log.d("change", "connectedd");
+
+            try{
+                post.setEntity(new UrlEncodedFormEntity(inputData));
+                HttpResponse httpResponse = client.execute(post);
+                HttpEntity entity = httpResponse.getEntity();
+                String strEntity = EntityUtils.toString(entity);
+                Log.d("change", strEntity);
+                JSONObject j = new JSONObject(strEntity);
+                result[0] = ""+j.getBoolean("isSuccess");
+                result[1] = j.getString("message");
+
+            } catch(Exception e){
+                e.printStackTrace();
+            }
+            Log.d("change", "returned");
+            return result;
+        }
+
+        @Override
+        protected void onPostExecute(String[] result) {
+            super.onPostExecute(result);
+            Log.d("change","post execute");
+            statusCallback.done(result);
+        }
+    }
+
 }

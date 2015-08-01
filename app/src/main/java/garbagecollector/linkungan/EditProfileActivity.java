@@ -10,6 +10,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.TextView;
 
 
 public class EditProfileActivity extends ActionBarActivity implements View.OnClickListener{
@@ -40,6 +41,11 @@ public class EditProfileActivity extends ActionBarActivity implements View.OnCli
         et_firstName.setText(loggedInUser.firstName);
         et_lastName.setText(loggedInUser.lastName);
         et_email.setText(loggedInUser.email);
+
+        if(userLocalStore.getLoginMethod() == Login.FACEBOOK_LOGIN_METHOD){
+            et_email.setVisibility(View.GONE);
+            ((TextView) findViewById(R.id.textView_email)).setVisibility(View.GONE);
+        }
     }
 
 

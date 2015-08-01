@@ -25,6 +25,7 @@ public class ProfileFragment extends Fragment implements View.OnClickListener{
     private Button btnEditProfile;
     private UserLocalStore userLocalStore;
     private ServerRequest serverRequest;
+    private User loggedInUser;
 
 
     @Override
@@ -39,16 +40,25 @@ public class ProfileFragment extends Fragment implements View.OnClickListener{
         View v = inflater.inflate(R.layout.fragment_profile, container, false);
         serverRequest = new ServerRequest(getActivity());
         userLocalStore = new UserLocalStore(getActivity());
+        loggedInUser = userLocalStore.getLoggedInUser();
+
         btnLogout = (Button) v.findViewById(R.id.btnLogout);
         btnChangePassword = (Button) v.findViewById(R.id.btnChangePassword);
+        btnEditProfile = (Button) v.findViewById(R.id.btnEditProfile);
+
         btnChangePassword.setOnClickListener(this);
+        btnLogout.setOnClickListener(this);
+        btnEditProfile.setOnClickListener(this);
+
         if(userLocalStore.getLoginMethod() == Login.NORMAL_LOGIN_METHOD){
             btnChangePassword.setVisibility(View.VISIBLE);
+        } else {
+            btnChangePassword.setVisibility(View.GONE);
         }
-        btnLogout.setOnClickListener(this);
 
-        btnEditProfile = (Button) v.findViewById(R.id.btnEditProfile);
-        btnEditProfile.setOnClickListener(this);
+        TextView tv_username = (TextView) v.findViewById(R.id.textView_username);
+        tv_username.setText(loggedInUser.firstName + " " + loggedInUser.lastName);
+
         return v;
     }
 

@@ -22,6 +22,7 @@ public class ProfileFragment extends Fragment implements View.OnClickListener{
 
     private Button btnLogout;
     private Button btnChangePassword;
+    private Button btnEditProfile;
     private UserLocalStore userLocalStore;
     private ServerRequest serverRequest;
 
@@ -45,6 +46,9 @@ public class ProfileFragment extends Fragment implements View.OnClickListener{
             btnChangePassword.setVisibility(View.VISIBLE);
         }
         btnLogout.setOnClickListener(this);
+
+        btnEditProfile = (Button) v.findViewById(R.id.btnEditProfile);
+        btnEditProfile.setOnClickListener(this);
         return v;
     }
 
@@ -66,6 +70,9 @@ public class ProfileFragment extends Fragment implements View.OnClickListener{
             case R.id.btnChangePassword:
                 viewChangePasswordDialog();
                 break;
+            case R.id.btnEditProfile:
+                Intent editIntent = new Intent(getActivity(), EditProfileActivity.class);
+                startActivityForResult(editIntent, 0);
         }
     }
 
@@ -80,6 +87,8 @@ public class ProfileFragment extends Fragment implements View.OnClickListener{
         //set layout/frame
         LinearLayout layout = new LinearLayout(getActivity());
         layout.setOrientation(LinearLayout.VERTICAL);
+        layout.setPadding(16, 16, 16, 16);
+
 
         final TextView tvOldPassword = new TextView(getActivity());
         tvOldPassword.setTextSize(20);

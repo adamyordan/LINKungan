@@ -16,5 +16,6 @@
     <string name="title_activity_sign_up">SignUp</string>
     <string name="title_activity_search">Search</string>
     <string name="facebook_app_id">816861488444936</string>
+    <string name="title_activity_edit_profile">EditProfileActivity</string>
 
 </resources>

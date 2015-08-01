@@ -132,8 +132,10 @@ public class Login extends ActionBarActivity implements View.OnClickListener {
 
         //inisialisasi tampilan
         ActionBar ab = getSupportActionBar();
-        ab.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#008A00")));
-        ab.setTitle(Html.fromHtml("<font color='#ffffff'>Login</font>"));
+//        ab.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#008A00")));
+//        ab.setTitle(Html.fromHtml("<font color='#ffffff'>Login</font>"));
+        ab.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#1B5E20")));
+        ab.setTitle(Html.fromHtml(""));
 
         etEmail = (EditText) findViewById(R.id.etStoredEmail);
         etPassword = (EditText) findViewById(R.id.etStoredPassword);
@@ -346,31 +348,31 @@ public class Login extends ActionBarActivity implements View.OnClickListener {
         finish();
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_login, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //jika sign up di klik, menuju ke sign up activity
-        if (id == R.id.action_Sign_In) {
-            Intent intent = new Intent(this, SignUp.class);
-            intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
-            startActivityForResult(intent,0);
-            overridePendingTransition(0,0);
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
+//    @Override
+//    public boolean onCreateOptionsMenu(Menu menu) {
+//        // Inflate the menu; this adds items to the action bar if it is present.
+//        getMenuInflater().inflate(R.menu.menu_login, menu);
+//        return true;
+//    }
+//
+//    @Override
+//    public boolean onOptionsItemSelected(MenuItem item) {
+//        // Handle action bar item clicks here. The action bar will
+//        // automatically handle clicks on the Home/Up button, so long
+//        // as you specify a parent activity in AndroidManifest.xml.
+//        int id = item.getItemId();
+//
+//        //jika sign up di klik, menuju ke sign up activity
+//        if (id == R.id.action_Sign_In) {
+//            Intent intent = new Intent(this, SignUp.class);
+//            intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+//            startActivityForResult(intent,0);
+//            overridePendingTransition(0,0);
+//            return true;
+//        }
+//
+//        return super.onOptionsItemSelected(item);
+//    }
 
     @Override
     public void onBackPressed() {

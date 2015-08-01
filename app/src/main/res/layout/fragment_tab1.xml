@@ -3,7 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="garbagecollector.linkungan.Tab1">
+    tools:context="garbagecollector.linkungan.Tab1"
+    xmlns:fab="http://schemas.android.com/apk/res-auto">
+
     <LinearLayout
         android:id="@+id/headerProgressLayout"
         android:layout_width="fill_parent"
@@ -41,4 +43,15 @@
            />
 
     </com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout>
+
+    <com.melnykov.fab.FloatingActionButton
+        android:id="@+id/btnCapture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="16dp"
+        android:src="@android:drawable/ic_menu_camera"
+        fab:fab_colorNormal="@color/ColorPrimary"
+        fab:fab_colorPressed="@color/ColorPrimaryDark"/>
+
 </FrameLayout>

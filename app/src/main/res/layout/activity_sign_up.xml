@@ -6,7 +6,7 @@
     android:focusable="true"
     android:focusableInTouchMode="true"
     tools:context="garbagecollector.linkungan.SignUp"
-    android:background="@color/ColorPrimary">
+    android:background="@color/ColorPrimaryDark">
 
 <RelativeLayout
     android:layout_width="match_parent"

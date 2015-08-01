@@ -36,6 +36,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.maps.model.LatLng;
+import com.melnykov.fab.FloatingActionButton;
 
 import java.io.File;
 import java.io.IOException;
@@ -70,7 +71,7 @@ public class Home extends ActionBarActivity implements View.OnClickListener {
     private static final int CAMERA_CAPTURE_IMAGE_REQUEST_CODE = 100;
 
     private Uri fileUri; // file url to store image
-    private ImageButton btnCapturePicture;
+    public FloatingActionButton btnCapturePicture;
 
     // ProfileFragment
     private Button btnLogout;
@@ -115,8 +116,6 @@ public class Home extends ActionBarActivity implements View.OnClickListener {
         userLocalStore = new UserLocalStore(this);
 
         //button di kiri bawah layout
-        btnCapturePicture = (ImageButton)findViewById(R.id.btnCapture);
-        btnCapturePicture.setOnClickListener(this);
 
 
         //ProfileFragment
@@ -125,7 +124,7 @@ public class Home extends ActionBarActivity implements View.OnClickListener {
 
     public View onCreateView(String name, Context context, AttributeSet attr){
         View v = super.onCreateView(name, context, attr);
-    return v;
+        return v;
 
     }
 

@@ -1,5 +1,6 @@
 package garbagecollector.linkungan;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.transition.Visibility;
@@ -12,6 +13,8 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.Toast;
+
+import com.melnykov.fab.FloatingActionButton;
 import com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout;
 import com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayoutDirection;
 
@@ -51,6 +54,9 @@ public class Tab1 extends Fragment {
     private boolean isLoading;
 
     private UserLocalStore userLocalStore;
+
+    FloatingActionButton fab;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -89,6 +95,14 @@ public class Tab1 extends Fragment {
                 R.layout.post_item, listPostItem);
         Log.d("tab", "generate complete");
         listView.setAdapter(itemAdapter);
+
+        fab = (FloatingActionButton) rootView.findViewById(R.id.btnCapture);
+        fab.attachToListView(listView);
+        fab.show();
+        fab.setOnClickListener((Home) getActivity());
+        ((Home) getActivity()).btnCapturePicture = fab;
+
+
         // Inflate the layout for this fragment
         return rootView;
     }

@@ -41,8 +41,11 @@ public class SignUp extends ActionBarActivity implements View.OnClickListener {
         setContentView(R.layout.activity_sign_up);
         //set Action bar
         ActionBar ab = getSupportActionBar();
-        ab.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#008A00")));
+//        ab.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#008A00")));
         ab.setTitle(Html.fromHtml("<font color='#ffffff'>Sign Up</font>"));
+        ab.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#1B5E20")));
+
+
         //set input (textView and button)
         etStoredFirstName = (EditText) findViewById(R.id.etStoredFirstName);
         etStoredLastName = (EditText) findViewById(R.id.etStoredLastName);
@@ -154,27 +157,27 @@ public class SignUp extends ActionBarActivity implements View.OnClickListener {
 
         return true;
     }
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_sign_up, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
+//    @Override
+//    public boolean onCreateOptionsMenu(Menu menu) {
+//        // Inflate the menu; this adds items to the action bar if it is present.
+//        getMenuInflater().inflate(R.menu.menu_sign_up, menu);
+//        return true;
+//    }
+//
+//    @Override
+//    public boolean onOptionsItemSelected(MenuItem item) {
+//        // Handle action bar item clicks here. The action bar will
+//        // automatically handle clicks on the Home/Up button, so long
+//        // as you specify a parent activity in AndroidManifest.xml.
+//        int id = item.getItemId();
+//
+//        //noinspection SimplifiableIfStatement
+//        if (id == R.id.action_settings) {
+//            return true;
+//        }
+//
+//        return super.onOptionsItemSelected(item);
+//    }
 
 
 }
